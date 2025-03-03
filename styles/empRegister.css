@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.emp-reg-outer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+.emp-reg-header-div{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 13.25vh;
+    display: flex;
+}
+
+.emp-reg-header-logo-img{
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 2em;
+    left: 15em
+}
+
+.emp-reg-header-title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    top: 2em;
+    left: 15.5em;
+}
+
+.emp-reg-header-title span:first-child{
+    font-weight: bold;
+    color: #82A70C;
+}
+
+.emp-reg-header-title span:last-child{
+    font-weight: bold;
+    color: #42515F;
+}
+
+
+.emp-reg-form-div{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: auto;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+}
+
+.emp-reg-form{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    padding-right: 3em;
+    gap: 2em;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 2em;
+}
+
+.emp-reg-input-name-div{
+    display: flex;
+    gap: 4.7em;
+    align-items: center;
+}
+
+.emp-reg-input-name-div input{
+    font-size: 15px;
+    padding-left: 1em;
+    color:#42515F;
+    width: 606px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+}
+
+.emp-reg-input-profile-image-div{
+    display: flex;
+    gap: 1.7em;
+    align-items: center;
+}
+
+.emp-reg-input-profile-image-div div{
+    display: flex;
+    gap: 0.7em;
+}
+
+.emp-reg-input-profile-image-div input{
+    transform: scale(1.5);
+}
+
+.emp-reg-input-profile-image-div label img{
+    border-radius: 50%;
+    width:2em;
+}
+
+.emp-reg-input-gender-div{
+    display: flex;
+    gap: 4.4em;
+    align-items: center;
+}
+
+.emp-reg-input-gender-div div{
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.emp-reg-input-gender-div input{
+    transform: scale(1.5);
+}
+
+.emp-reg-input-department-div{
+    display: flex;
+    gap: 2.6em;
+}
+
+.emp-reg-input-department-div div{
+    display: flex;
+    gap: 0.5em;
+}
+
+.emp-reg-input-department-div input{
+    transform: scale(1.5);
+}
+
+.emp-reg-input-salary-div{
+    display: flex;
+    gap: 4.9em;
+}
+
+.emp-reg-input-salary-div select{
+    width: 341px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+    padding-left: 0.5em;
+}
+
+
+.emp-reg-input-date-div{
+    display: flex;
+    gap: 3.2em;
+}
+
+.emp-reg-input-date-div div{
+    display: flex;
+    gap: 1em;
+}
+
+.emp-reg-input-date-div select{
+    width: 163px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+    padding-left: 0.5em;
+}
+
+
+.emp-reg-textarea-notes-div{
+    display: flex;
+    gap: 5em;
+}
+
+.emp-reg-textarea-notes-div textarea{
+    all: unset;
+    width: 686px;
+    height: 104px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+    font-size: 15px;
+    padding-left: 1em;
+}
+
+.emp-reg-buttons-div{
+    display: flex;
+    gap: 25em;
+}
+.emp-reg-buttons-div div{
+    display: flex;
+    gap: 1em;
+}
+
+.emp-reg-buttons-div button{
+    width: 6em;
+    height: 3em;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+    color: #42515F;
+}

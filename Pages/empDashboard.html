@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="../styles/empDashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="../assets/Logo.jpeg" type="image/icon_type">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script defer src="../js/empDashboard.js"></script>
+</head>
+<body>
+    <div class="emp-dash-outer-div">
+        <div class="emp-dash-header-div">
+            <a href="./empDashboard.html" class="emp-dash-header-logo">
+                <img src="../assets/Logo.jpeg" alt="Logo Not found" class="emp-dash-header-logo-img">
+            </a>
+            <div class="emp-dash-header-title">
+                <span>EMPLOYEE</span>
+                <span>PAYROLL</span>
+            </div>
+        </div>
+
+        <div class="emp-dash-main-content">
+            <div class="emp-dash-nav">
+                <div class="emp-dash-nav-heading">
+                    <h2>Employee Details</h2>
+                </div>
+                <div class="emp-dash-nav-functions">
+                    <div class="emp-dash-nav-search-box">
+                        <div class="search-container">
+                            <input type="text" id="emp-dash-main-search-box" placeholder="Search employee..." oninput="searchByName()">
+                        </div>
+                    </div>
+                    <div class="emp-dash-nav-add-user">
+                        <button type="button">
+                            <i class="fa-solid fa-plus"></i>
+                            <p>Add User</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="emp-dash-table">
+                <table class="emp-dash-table-content">
+                    <thead class="emp-dash-table-header">
+                        <tr>
+                            <th>NAME</th>
+                            <th>GENDER</th>
+                            <th>DEPARTMENT</th>
+                            <th>SALARY</th>
+                            <th>START DATE</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody class="emp-dash-table-body">
+                        
+                    </tbody>
+                </table>                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

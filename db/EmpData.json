@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "name": "vishal",
+      "profileImage": "http://127.0.0.1:5500/assets/Male2.jpeg",
+      "gender": "Male",
+      "departments": [
+        "Engineer"
+      ],
+      "salary": "$35,000",
+      "startDate": "01-April-2025",
+      "notes": "",
+      "id": "4956"
+    },
+    {
+      "id": "8549",
+      "name": "Priyanshu",
+      "profileImage": "http://127.0.0.1:5500/assets/Male2.jpeg",
+      "gender": "Male",
+      "departments": [
+        "Engineer"
+      ],
+      "salary": "$35,000",
+      "startDate": "01-January-2025",
+      "notes": ""
+    }
+  ]
+}
